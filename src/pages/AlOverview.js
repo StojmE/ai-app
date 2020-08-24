@@ -7,8 +7,6 @@ import {
 import ScorePanel from "../items/score-panel/ScorePanel";
 import * as agent from "../custom";
 import { Button } from "../components/button/Button";
-import { useHistory } from "react-router-dom";
-
 
 export default function AIOverview(props) {
   const routeReturn = () => props.history.goBack();

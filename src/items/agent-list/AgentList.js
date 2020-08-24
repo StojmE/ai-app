@@ -1,6 +1,4 @@
 import React from "react";
-import Panel from "../../components/panel/Panel";
-import { ButtonCircle } from "../../components/button/Button";
 import AgentItem from "../agent-item/AgentItem";
 
 export default function ApartmentList({ list, checked, setCheck, checkAgent, state, link }) {
