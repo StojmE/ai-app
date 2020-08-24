@@ -1,0 +1,32 @@
+@import "../../helpers/style/variables";
+
+.button {
+  border: none;
+  background: $primary-base;
+  padding: $spacer-m $spacer-l;
+  border-radius: $radius-small;
+  color: $primary-base-text;
+  font-size: 16px;
+  font-weight: bold;
+  transition: 0.4s;
+
+  &:hover {
+    cursor: pointer;
+    background: $primary-base-hover;
+  }
+}
+
+
+.check-button {
+  display: block;
+  border: 3px solid $primary-base;
+  background: transparent;
+  border-radius: $full-radius;
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+
+  &.filled {
+    background: $primary-base;
+  }
+}

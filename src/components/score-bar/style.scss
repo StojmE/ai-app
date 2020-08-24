@@ -1,0 +1,37 @@
+@import "../../helpers/style/variables";
+
+.score-wrapper {
+  display: flex;
+  flex-direction: column;
+  width: $full-width;
+
+  .average-state {
+    margin-top: $spacer-m;
+  }
+}
+
+.score-bar {
+  background: $secondary-background;
+  border-radius: $radius-medium;
+  width: $full-width;
+  height: 10px;
+
+  .score-filling {
+    width: 50%;
+    height: 10px;
+    border-radius: $radius-medium;
+    margin-bottom: $spacer-m;
+
+    &.memory {
+      background: $additional-color-001;
+    }
+
+    &.planning {
+      background: $additional-color-002;
+    }
+
+    &.logic {
+      background: $additional-color-003;
+    }
+  }
+}

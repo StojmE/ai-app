@@ -1,0 +1,28 @@
+@import "../../helpers/style/variables";
+
+h2 {
+  color: $primary-base;
+  font-size: 48px;
+  margin: $spacer-l 0;
+}
+
+h4 {
+  margin: 0;
+  font-size: 24px;
+  margin-bottom: $spacer-l;
+}
+
+p {
+  color: $not-white;
+  margin: 0;
+  align-items: center;
+
+  &.description {
+    font-size: 36px;
+  }
+}
+
+span {
+  color: $not-white;
+  font-size: 14px;
+}

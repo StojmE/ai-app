@@ -1,0 +1,47 @@
+@import "../../helpers/style/variables";
+
+$search-height: 52px;
+
+.search-item {
+  display: flex;
+  align-items: center;
+  max-width: $full-height;
+  max-height: $search-height;
+  position: relative;
+
+  .search-input {
+    height: $search-height;
+    width: $full-height;
+    padding: $spacer-m 5 * $spacer-m $spacer-m 2 * $spacer-m;
+    border: none;
+    border-radius: $full-radius;
+    background: $not-white;
+    font-family: $font-family;
+    box-shadow: $shadow;
+    color: $secondary-base;
+    font-size: 16px;
+    transition: 0.4s;
+
+    &::placeholder {
+      color: $secondary-base-hover;
+    }
+
+    &:focus {
+      box-shadow: $inset-shadow;
+    }
+  }
+
+  .search-icon {
+    position: absolute;
+    right: $spacer-m;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    border-radius: $full-radius;
+    background: none;
+    color: $secondary-base;
+    width: 35px;
+    height: 35px;
+  }
+}

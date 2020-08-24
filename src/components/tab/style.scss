@@ -1,0 +1,21 @@
+@import "../../helpers/style/variables";
+
+.tab-button {
+  border: none;
+  background: none;
+  padding: $spacer-m $spacer-l;
+  border-radius: $radius-small;
+  color: $primary-base;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.6s;
+
+  &:hover {
+    background: $primary-transparent;
+  }
+
+  &.active {
+    background: $primary-transparent;
+    cursor: pointer;
+  }
+}

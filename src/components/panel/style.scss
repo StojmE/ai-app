@@ -1,0 +1,19 @@
+@import "../../helpers/style/variables";
+
+.panel {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: $primary-base;
+  background: $secondary-base;
+  border-radius: $radius-medium;
+  box-shadow: $shadow;
+  padding: $spacer-l 2 * $spacer-m;
+  position: relative;
+  transition: 0.4s;
+
+  &.clickable:hover {
+    cursor: pointer;
+    background: $secondary-base-hover;
+  }
+}
