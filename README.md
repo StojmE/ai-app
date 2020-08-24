@@ -1,3 +1,12 @@
+Project should easily be started in the following order:
+
+Plase make sure you have Node.js installed :)
+
+### `npm install`
+### `npm start`
+
+/////////// Description from Editor /////////////
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
